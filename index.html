@@ -20,7 +20,7 @@
       }
     </style>
   </head>
-  <body class="modal-open" style="overflow: hidden; padding-right: 15px;">
+  <body class="" style="">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a href="#" class="navbar-brand">
         <div class="container-fluid d-flex">
@@ -132,7 +132,7 @@
           <div class="col-md-auto">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kennethModal"> Talents and Skills </button>
           </div>
-          <div class="modal fade show" id="kennethModal" tabindex="-1" aria-labelledby="exampleModalCenterTitle" style="display: block;" aria-modal="true" role="dialog">
+          <div class="modal fade" id="kennethModal" tabindex="-1" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -142,7 +142,7 @@
                 <div class="modal-body">
                   <div id="kennethCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item bg-dark text-light container">
+                      <div class="carousel-item bg-dark text-light container active">
                         <img src="./port/ken/img1.jpg" height="" class="d-block w-100 row" alt="Competition Certificate">
                         <div>
                           <h5>Music Skills</h5>
@@ -170,7 +170,7 @@
                           <p>A footage of me playing "Yesterday" by the Beatles in a Piano Competition.</p>
                         </div>
                       </div>
-                      <div class="carousel-item bg-dark text-light container active">
+                      <div class="carousel-item bg-dark text-light container">
                         <video src="./port/ken/sax.mp4" class="d-block w-100 row" controls=""></video>
                         <div class="row">
                           <h5>Saxophone</h5>
@@ -384,6 +384,5 @@
         </div>
       </div>
     </div>
-    <div class="modal-backdrop fade show"></div>
   </body>
 </html>
